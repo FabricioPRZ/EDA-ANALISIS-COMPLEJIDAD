@@ -1,4 +1,4 @@
-export default class ArrayList {
+class ArrayList {
     constructor() {
         this.data = [];
         this.length = 0; 
@@ -126,3 +126,5 @@ export default class ArrayList {
         return this.data;
     }
 }
+
+export default ArrayList;

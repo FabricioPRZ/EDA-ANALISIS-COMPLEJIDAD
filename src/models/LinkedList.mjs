@@ -1,4 +1,4 @@
-export default class LinkedList {
+class LinkedList {
     #head;
     #count;
 
@@ -166,3 +166,5 @@ export default class LinkedList {
         return this;
     }
 }
+
+export default LinkedList;
